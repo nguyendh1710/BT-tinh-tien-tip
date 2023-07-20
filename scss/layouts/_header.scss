@@ -1,0 +1,14 @@
+
+#header{
+
+     .title{
+        @include styleText($color-blue-1,$fs-1,$fw-2,$position-1);
+        height: 25vh;
+
+     }
+    
+     
+
+
+}
+

@@ -1,0 +1,19 @@
+.row{
+   
+  #tongtien h1, #tientip,  #songuoi, #tinh {
+                      @include styleText($color-purple-1,$fs-1,$fw-1,$position-1);
+            }
+#tongtienne{
+               display: flex;
+               justify-content: center;
+        
+        
+            }
+
+#tinh .nutmau{
+
+
+          @extend .nutmau
+}
+
+}

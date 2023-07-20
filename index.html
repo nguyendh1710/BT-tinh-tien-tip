@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <!-- my CSS -->
+  <link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+<header id="header">
+    <div class=" title bg-black" >TÍNH TIỀN TIP</div>
+</header>
+<main id="content">
+
+
+          <div class="container">
+               <div class="row justify-content-center align-items-center g-2">
+                    <div id="tongtien">
+                      <h1>Tổng tiền thanh toán</h1>
+                      <div id="tongtienne">
+                         <span>$</span><input placeholder="Tổng tiền" id="tong">
+                      </div>
+                     
+
+                    </div>
+                    <div  id="tientip">
+
+                    
+                      <select id="tip"  >
+                              <option value="">--Chọn để tip--</option>
+                              <option value="30">30%-Tuyệt</option>
+                              <option value="20">20%-Tốt</option>
+                              <option value="15">15%-Tạm ổn</option>
+                              <option value="10">10%-Tồi</option>
+                              <option value="05">5%-Thật tệ</option>
+
+                      </select>
+                      <p style="color: red" id="show_message"></p>
+
+ 
+                    <br/>
+                  
+                    <div  >
+
+                      <h1>Muốn share bao nhiêu người</h1>
+                     
+                      <input placeholder="Nhập số người" id="songuoi"><span>người</span>
+
+                    </div>
+                    <br/>
+                    <div id="tinh">
+
+                      <button class="nutmau" onclick="valueChange()">Tính nhe tủn</button>
+                      <p id="hienthi"></p>
+                    </div>
+               </div>
+
+          </div>
+
+
+
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+   <!-- my js -->
+   <script src="index.js"></script>
+</body>
+
+</html>

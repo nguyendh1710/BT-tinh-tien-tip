@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.nutmau, .row #tinh .nutmau {
+  background-color: aqua;
+}
+
+#header .title {
+  color: rgba(51, 34, 238, 0.4666666667);
+  font-size: 52 px;
+  font-weight: 900;
+  text-align: center;
+  height: 25vh;
+}
+
+.row #tongtien h1, .row #tientip, .row #songuoi, .row #tinh {
+  color: rgba(238, 34, 238, 0.4666666667);
+  font-size: 52 px;
+  font-weight: bold;
+  text-align: center;
+}
+.row #tongtienne {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=main.css.map */
